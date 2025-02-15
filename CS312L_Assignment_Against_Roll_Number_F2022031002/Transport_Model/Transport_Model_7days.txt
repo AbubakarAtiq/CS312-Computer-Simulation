@@ -1,0 +1,1877 @@
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1341    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1341    
+Process 1.VATimePerEntity                   .01664      3.2192E-4 .00833     .02500       1341    
+Process 1.TotalTimePerEntity                .01664      3.2192E-4 .00833     .02500       1341    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1502    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1502    
+Entity 1.WaitTime                           .02312     .03033     .00000     5.7376       1502    
+Entity 1.TranTime                           .12179     .00196     .00000     .41000       1502    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1502    
+Entity 1.TotalTime                          .14491     .03133     .00000     5.9476       1502    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1502    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1502    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1502    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1502    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1502    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1502    
+Human.VATime                                .00536      2.6193E-4 .00000     .02500       4096    
+Human.NVATime                               .00000     .00000     .00000     .00000       4096    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4096    
+Human.TranTime                              .24748      9.4033E-4 .00000     .26000       4096    
+Human.OtherTime                             .05509     .00284     .00000     .65556       4096    
+Human.TotalTime                             .30794     .00301     .00000     .90556       4096    
+Human.VACost                                .00000     .00000     .00000     .00000       4096    
+Human.NVACost                               .00000     .00000     .00000     .00000       4096    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4096    
+Human.TranCost                              .00000     .00000     .00000     .00000       4096    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4096    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4096    
+Hold 1.Queue.WaitingTime                    2.6712     (Insuf)    .03709     5.7376         13    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                9.0910     (Corr)     .00000     21.000     6.0000    
+Human.WIP                                   52.925     3.1675     .00000     89.000     65.000    
+Hold 1.Queue.NumberInQueue                  1.4469     (Insuf)    .00000     5.0000     .00000    
+Station 12.NumEntTrans                      14.847     1.1500     .00000     35.000     18.000    
+Station 11.NumEntTrans                      13.307     .74857     .00000     31.000     19.000    
+Station 10.NumEntTrans                      14.423     1.0720     .00000     33.000     20.000    
+Station 7.NumEntTrans                       .10250     (Insuf)    .00000     1.0000     .00000    
+Station 6.NumEntTrans                       .11375     (Insuf)    .00000     2.0000     .00000    
+Station 5.NumEntTrans                       .11121     (Insuf)    .00000     2.0000     1.0000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.8663     .32065     .00000     9.0000     2.0000    
+Station 2.NumEntTrans                       2.3675     .21696     .00000     9.0000     2.0000    
+Station 1.NumEntTrans                       2.0828     .23305     .00000     9.0000     1.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1344.0    
+Process 1 Total Accum Time                  22.314    
+Process 1 Accum VA Time                     22.314    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1341.0    
+Entity 1.NumberIn                           1508.0    
+Entity 1.NumberOut                          1502.0    
+Human.NumberIn                              4161.0    
+Human.NumberOut                             4096.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   115.43    
+Station 11.TotalAccumTime                   115.43    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   110.22    
+Station 10.TotalAccumTime                   110.22    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     34.726    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    34.726    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       22.314    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    22.314    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5598.0    
+
+Beginning replication 2 of 7
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 2 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1431    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1431    
+Process 1.VATimePerEntity                   .01678      2.7211E-4 .00834     .02499       1431    
+Process 1.TotalTimePerEntity                .01678      2.7211E-4 .00834     .02499       1431    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1473    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1473    
+Entity 1.WaitTime                           .01741     .02052     .00000     6.3427       1473    
+Entity 1.TranTime                           .12160     .00219     .00000     .41000       1473    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1473    
+Entity 1.TotalTime                          .13900     .02158     .00000     6.5527       1473    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1473    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1473    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1473    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1473    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1473    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1473    
+Human.VATime                                .00564      2.6082E-4 .00000     .02499       4230    
+Human.NVATime                               .00000     .00000     .00000     .00000       4230    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4230    
+Human.TranTime                              .24771      7.3673E-4 .00000     .26000       4230    
+Human.OtherTime                             .05594     .00262     .00000     .65127       4230    
+Human.TotalTime                             .30930     .00256     .00000     .91344       4230    
+Human.VACost                                .00000     .00000     .00000     .00000       4230    
+Human.NVACost                               .00000     .00000     .00000     .00000       4230    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4230    
+Human.TranCost                              .00000     .00000     .00000     .00000       4230    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4230    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4230    
+Hold 1.Queue.WaitingTime                    3.6631     (Insuf)    .73672     6.3427          7    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000          7    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.5592     .48981     .00000     18.000     7.0000    
+Human.WIP                                   54.827     2.6142     .00000     92.000     51.000    
+Hold 1.Queue.NumberInQueue                  1.0684     (Insuf)    .00000     3.0000     .00000    
+Station 12.NumEntTrans                      15.010     .87388     .00000     34.000     14.000    
+Station 11.NumEntTrans                      14.263     1.0298     .00000     32.000     8.0000    
+Station 10.NumEntTrans                      14.679     .87799     .00000     30.000     22.000    
+Station 7.NumEntTrans                       .15375     (Insuf)    .00000     2.0000     .00000    
+Station 6.NumEntTrans                       .06125     (Insuf)    .00000     1.0000     .00000    
+Station 5.NumEntTrans                       .10308     (Insuf)    .00000     1.0000     1.0000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.7779     .21050     .00000     10.000     3.0000    
+Station 2.NumEntTrans                       2.4476     .19030     .00000     8.0000     1.0000    
+Station 1.NumEntTrans                       1.9471     .14421     .00000     7.0000     2.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1432.0    
+Process 1 Total Accum Time                  24.005    
+Process 1 Accum VA Time                     24.005    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1431.0    
+Entity 1.NumberIn                           1480.0    
+Entity 1.NumberOut                          1473.0    
+Human.NumberIn                              4281.0    
+Human.NumberOut                             4230.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   118.66    
+Station 11.TotalAccumTime                   118.66    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   117.96    
+Station 10.TotalAccumTime                   117.96    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     25.642    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    25.642    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       24.005    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    24.005    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5703.0    
+
+Beginning replication 3 of 7
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 3 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1490    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1490    
+Process 1.VATimePerEntity                   .01657      2.0257E-4 .00834     .02499       1490    
+Process 1.TotalTimePerEntity                .01657      2.0257E-4 .00834     .02499       1490    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1497    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1497    
+Entity 1.WaitTime                           .00982     .00994     .00000     3.5405       1497    
+Entity 1.TranTime                           .12150     .00239     .00000     .41000       1497    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1497    
+Entity 1.TotalTime                          .13132     .01185     .00000     3.7505       1497    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1497    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1497    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1497    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1497    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1497    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1497    
+Human.VATime                                .00575      1.9066E-4 .00000     .02499       4248    
+Human.NVATime                               .00000     .00000     .00000     .00000       4248    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4248    
+Human.TranTime                              .24770      6.3793E-4 .00000     .26000       4248    
+Human.OtherTime                             .05461     .00299     .00000     .77083       4248    
+Human.TotalTime                             .30805     .00294     .00000     1.0208       4248    
+Human.VACost                                .00000     .00000     .00000     .00000       4248    
+Human.NVACost                               .00000     .00000     .00000     .00000       4248    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4248    
+Human.TranCost                              .00000     .00000     .00000     .00000       4248    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4248    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4248    
+Hold 1.Queue.WaitingTime                    2.4488     (Insuf)    .70522     3.5405          6    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000          6    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.1986     .55527     .00000     20.000     4.0000    
+Human.WIP                                   54.836     2.6418     .00000     97.000     42.000    
+Hold 1.Queue.NumberInQueue                  .61222     (Insuf)    .00000     2.0000     .00000    
+Station 12.NumEntTrans                      14.885     .54970     .00000     27.000     6.0000    
+Station 11.NumEntTrans                      14.854     .88351     .00000     33.000     9.0000    
+Station 10.NumEntTrans                      14.382     1.0775     .00000     29.000     18.000    
+Station 7.NumEntTrans                       .13667     (Insuf)    .00000     2.0000     .00000    
+Station 6.NumEntTrans                       .05250     (Insuf)    .00000     1.0000     .00000    
+Station 5.NumEntTrans                       .11625     (Insuf)    .00000     2.0000     .00000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.7877     .26060     .00000     9.0000     3.0000    
+Station 2.NumEntTrans                       2.4450     .18574     .00000     7.0000     .00000    
+Station 1.NumEntTrans                       2.0483     .20448     .00000     9.0000     1.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1490.0    
+Process 1 Total Accum Time                  24.683    
+Process 1 Accum VA Time                     24.683    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1490.0    
+Entity 1.NumberIn                           1501.0    
+Entity 1.NumberOut                          1497.0    
+Human.NumberIn                              4290.0    
+Human.NumberOut                             4248.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   119.85    
+Station 11.TotalAccumTime                   119.85    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   112.12    
+Station 10.TotalAccumTime                   112.12    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     14.693    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    14.693    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       24.683    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    24.683    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5745.0    
+
+Beginning replication 4 of 7
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 4 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1493    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1493    
+Process 1.VATimePerEntity                   .01672      2.7064E-4 .00834     .02500       1493    
+Process 1.TotalTimePerEntity                .01672      2.7064E-4 .00834     .02500       1493    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1403    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1403    
+Entity 1.WaitTime                           .01676     .02001     .00000     5.5513       1403    
+Entity 1.TranTime                           .12112     .00178     .00000     .41000       1403    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1403    
+Entity 1.TotalTime                          .13788     .02115     .00000     5.7613       1403    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1403    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1403    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1403    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1403    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1403    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1403    
+Human.VATime                                .00558      2.0334E-4 .00000     .02500       4372    
+Human.NVATime                               .00000     .00000     .00000     .00000       4372    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4372    
+Human.TranTime                              .24738      9.8689E-4 .00000     .26000       4372    
+Human.OtherTime                             .05448     .00257     .00000     .67780       4372    
+Human.TotalTime                             .30744     .00263     .00000     .93183       4372    
+Human.VACost                                .00000     .00000     .00000     .00000       4372    
+Human.NVACost                               .00000     .00000     .00000     .00000       4372    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4372    
+Human.TranCost                              .00000     .00000     .00000     .00000       4372    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4372    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4372    
+Hold 1.Queue.WaitingTime                    2.6121     (Insuf)    .23780     5.5513          9    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000          9    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.0932     .52885     .00000     19.000     9.0000    
+Human.WIP                                   56.451     3.9388     .00000     107.00     62.000    
+Hold 1.Queue.NumberInQueue                  .98772     (Insuf)    .00000     3.0000     1.0000    
+Station 12.NumEntTrans                      15.944     1.4495     .00000     44.000     14.000    
+Station 11.NumEntTrans                      14.810     1.1330     .00000     31.000     26.000    
+Station 10.NumEntTrans                      14.713     1.0769     .00000     35.000     12.000    
+Station 7.NumEntTrans                       .10250     (Insuf)    .00000     1.0000     .00000    
+Station 6.NumEntTrans                       .08750     (Insuf)    .00000     1.0000     .00000    
+Station 5.NumEntTrans                       .05167     (Insuf)    .00000     1.0000     .00000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.6289     (Corr)     .00000     10.000     4.0000    
+Station 2.NumEntTrans                       2.3725     .23484     .00000     10.000     2.0000    
+Station 1.NumEntTrans                       1.8623     .19993     .00000     7.0000     2.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1493.0    
+Process 1 Total Accum Time                  24.959    
+Process 1 Accum VA Time                     24.959    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1493.0    
+Entity 1.NumberIn                           1412.0    
+Entity 1.NumberOut                          1403.0    
+Human.NumberIn                              4434.0    
+Human.NumberOut                             4372.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   121.09    
+Station 11.TotalAccumTime                   121.09    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   117.08    
+Station 10.TotalAccumTime                   117.08    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     23.508    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    23.508    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       24.959    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    24.959    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5775.0    
+
+Beginning replication 5 of 7
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 5 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1392    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1392    
+Process 1.VATimePerEntity                   .01676      2.4764E-4 .00834     .02498       1392    
+Process 1.TotalTimePerEntity                .01676      2.4764E-4 .00834     .02498       1392    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1498    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1498    
+Entity 1.WaitTime                           .01128     .02318     .00000     6.5546       1498    
+Entity 1.TranTime                           .12189     .00191     .00000     .41000       1498    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1498    
+Entity 1.TotalTime                          .13317     .02427     .00000     6.7646       1498    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1498    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1498    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1498    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1498    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1498    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1498    
+Human.VATime                                .00548      2.2736E-4 .00000     .02498       4198    
+Human.NVATime                               .00000     .00000     .00000     .00000       4198    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4198    
+Human.TranTime                              .24776      7.6592E-4 .00000     .26000       4198    
+Human.OtherTime                             .05203     .00273     .00000     .69091       4198    
+Human.TotalTime                             .30528     .00289     .00000     .94386       4198    
+Human.VACost                                .00000     .00000     .00000     .00000       4198    
+Human.NVACost                               .00000     .00000     .00000     .00000       4198    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4198    
+Human.TranCost                              .00000     .00000     .00000     .00000       4198    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4198    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4198    
+Hold 1.Queue.WaitingTime                    2.4139     (Insuf)    .00561     6.5546          7    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000          7    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.3267     .64422     .00000     19.000     5.0000    
+Human.WIP                                   53.735     2.7708     .00000     91.000     44.000    
+Hold 1.Queue.NumberInQueue                  .70406     (Insuf)    .00000     5.0000     .00000    
+Station 12.NumEntTrans                      15.619     .71949     .00000     33.000     14.000    
+Station 11.NumEntTrans                      13.866     .92435     .00000     35.000     13.000    
+Station 10.NumEntTrans                      14.138     1.2133     .00000     32.000     7.0000    
+Station 7.NumEntTrans                       .15842     (Insuf)    .00000     2.0000     1.0000    
+Station 6.NumEntTrans                       .06125     (Insuf)    .00000     1.0000     .00000    
+Station 5.NumEntTrans                       .11625     (Insuf)    .00000     2.0000     .00000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.7910     .27866     .00000     10.000     1.0000    
+Station 2.NumEntTrans                       2.3600     .21815     .00000     8.0000     2.0000    
+Station 1.NumEntTrans                       2.1356     .19716     .00000     8.0000     1.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1393.0    
+Process 1 Total Accum Time                  23.325    
+Process 1 Accum VA Time                     23.325    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1392.0    
+Entity 1.NumberIn                           1503.0    
+Entity 1.NumberOut                          1498.0    
+Human.NumberIn                              4242.0    
+Human.NumberOut                             4198.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   108.51    
+Station 11.TotalAccumTime                   108.51    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   109.92    
+Station 10.TotalAccumTime                   109.92    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     16.897    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    16.897    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       23.325    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    23.325    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5696.0    
+
+Beginning replication 6 of 7
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 6 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1330    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1330    
+Process 1.VATimePerEntity                   .01668      2.5373E-4 .00835     .02498       1330    
+Process 1.TotalTimePerEntity                .01668      2.5373E-4 .00835     .02498       1330    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1521    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1521    
+Entity 1.WaitTime                           .01454     .02477     .00000     7.7538       1521    
+Entity 1.TranTime                           .12095     .00153     .00000     .41000       1521    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1521    
+Entity 1.TotalTime                          .13548     .02543     .00000     7.9638       1521    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1521    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1521    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1521    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1521    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1521    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1521    
+Human.VATime                                .00540      2.9545E-4 .00000     .02498       4062    
+Human.NVATime                               .00000     .00000     .00000     .00000       4062    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4062    
+Human.TranTime                              .24785      7.5573E-4 .00000     .26000       4062    
+Human.OtherTime                             .05307     .00260     .00000     .80542       4062    
+Human.TotalTime                             .30631     .00271     .00000     1.0554       4062    
+Human.VACost                                .00000     .00000     .00000     .00000       4062    
+Human.NVACost                               .00000     .00000     .00000     .00000       4062    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4062    
+Human.TranCost                              .00000     .00000     .00000     .00000       4062    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4062    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4062    
+Hold 1.Queue.WaitingTime                    3.1587     (Insuf)    1.2308     7.7538          7    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000          7    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.6631     (Corr)     .00000     19.000     11.000    
+Human.WIP                                   52.164     2.9427     .00000     94.000     45.000    
+Hold 1.Queue.NumberInQueue                  .96079     (Insuf)    .00000     4.0000     1.0000    
+Station 12.NumEntTrans                      14.590     .94837     .00000     32.000     12.000    
+Station 11.NumEntTrans                      13.253     1.0294     .00000     28.000     13.000    
+Station 10.NumEntTrans                      14.389     .90174     .00000     32.000     11.000    
+Station 7.NumEntTrans                       .06833     (Insuf)    .00000     1.0000     .00000    
+Station 6.NumEntTrans                       .07000     (Insuf)    .00000     2.0000     .00000    
+Station 5.NumEntTrans                       .09042     (Insuf)    .00000     2.0000     .00000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.7943     .19710     .00000     8.0000     4.0000    
+Station 2.NumEntTrans                       2.6072     .24059     .00000     10.000     2.0000    
+Station 1.NumEntTrans                       2.0720     .22062     .00000     9.0000     4.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1332.0    
+Process 1 Total Accum Time                  22.180    
+Process 1 Accum VA Time                     22.180    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1330.0    
+Entity 1.NumberIn                           1532.0    
+Entity 1.NumberOut                          1521.0    
+Human.NumberIn                              4107.0    
+Human.NumberOut                             4062.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   103.17    
+Station 11.TotalAccumTime                   103.17    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   112.39    
+Station 10.TotalAccumTime                   112.39    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     22.111    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    22.111    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       22.180    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    22.180    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5583.0    
+
+Beginning replication 7 of 7
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 7 of 7
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Process 1.TotalCostPerEntity                .00000     .00000     .00000     .00000       1392    
+Process 1.VACostPerEntity                   .00000     .00000     .00000     .00000       1392    
+Process 1.VATimePerEntity                   .01672      3.3294E-4 .00834     .02499       1392    
+Process 1.TotalTimePerEntity                .01672      3.3294E-4 .00834     .02499       1392    
+Entity 1.VATime                             .00000     .00000     .00000     .00000       1443    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000       1443    
+Entity 1.WaitTime                           .00712     .00666     .00000     2.2794       1443    
+Entity 1.TranTime                           .12151     (Corr)     .00000     .41000       1443    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000       1443    
+Entity 1.TotalTime                          .12863     .00797     .00000     2.4894       1443    
+Entity 1.VACost                             .00000     .00000     .00000     .00000       1443    
+Entity 1.NVACost                            .00000     .00000     .00000     .00000       1443    
+Entity 1.WaitCost                           .00000     .00000     .00000     .00000       1443    
+Entity 1.TranCost                           .00000     .00000     .00000     .00000       1443    
+Entity 1.OtherCost                          .00000     .00000     .00000     .00000       1443    
+Entity 1.TotalCost                          .00000     .00000     .00000     .00000       1443    
+Human.VATime                                .00549      2.6729E-4 .00000     .02499       4180    
+Human.NVATime                               .00000     .00000     .00000     .00000       4180    
+Human.WaitTime                              .00000     .00000     .00000     .00000       4180    
+Human.TranTime                              .24739      8.6749E-4 .00000     .26000       4180    
+Human.OtherTime                             .05538     .00272     .00000     .76273       4180    
+Human.TotalTime                             .30827     .00276     .00000     1.0127       4180    
+Human.VACost                                .00000     .00000     .00000     .00000       4180    
+Human.NVACost                               .00000     .00000     .00000     .00000       4180    
+Human.WaitCost                              .00000     .00000     .00000     .00000       4180    
+Human.TranCost                              .00000     .00000     .00000     .00000       4180    
+Human.OtherCost                             .00000     .00000     .00000     .00000       4180    
+Human.TotalCost                             .00000     .00000     .00000     .00000       4180    
+Hold 1.Queue.WaitingTime                    .93427     (Insuf)    .28571     2.2794         11    
+Hold 1.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000         11    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.7761     .53336     .00000     19.000     10.000    
+Human.WIP                                   54.037     2.3587     .00000     92.000     56.000    
+Hold 1.Queue.NumberInQueue                  .43367     (Insuf)    .00000     4.0000     1.0000    
+Station 12.NumEntTrans                      14.741     .98240     .00000     39.000     16.000    
+Station 11.NumEntTrans                      13.839     .79091     .00000     31.000     13.000    
+Station 10.NumEntTrans                      14.808     .90932     .00000     32.000     16.000    
+Station 7.NumEntTrans                       .05125     (Insuf)    .00000     1.0000     .00000    
+Station 6.NumEntTrans                       .10500     (Insuf)    .00000     2.0000     .00000    
+Station 5.NumEntTrans                       .15500     (Insuf)    .00000     1.0000     .00000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.8144     .24801     .00000     10.000     4.0000    
+Station 2.NumEntTrans                       2.3294     .23481     .00000     9.0000     3.0000    
+Station 1.NumEntTrans                       1.8873     .15795     .00000     8.0000     2.0000    
+Station 9.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 8.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Process 1 Number In                         1392.0    
+Process 1 Total Accum Time                  23.270    
+Process 1 Accum VA Time                     23.270    
+Process 1 Accum VA Cost                     .00000    
+Process 1 Total Accum Cost                  .00000    
+Process 1 Number Out                        1392.0    
+Entity 1.NumberIn                           1453.0    
+Entity 1.NumberOut                          1443.0    
+Human.NumberIn                              4236.0    
+Human.NumberOut                             4180.0    
+Station 12.AccumVATime                      .00000    
+Station 12.AccumNVATime                     .00000    
+Station 12.AccumWaitTime                    .00000    
+Station 12.AccumTranTime                    .00000    
+Station 12.AccumOtherTime                   .00000    
+Station 12.TotalAccumTime                   .00000    
+Station 12.AccumVACost                      .00000    
+Station 12.AccumNVACost                     .00000    
+Station 12.AccumWaitCost                    .00000    
+Station 12.AccumTranCost                    .00000    
+Station 12.AccumOtherCost                   .00000    
+Station 12.TotalAccumCost                   .00000    
+Station 11.AccumVATime                      .00000    
+Station 11.AccumNVATime                     .00000    
+Station 11.AccumWaitTime                    .00000    
+Station 11.AccumTranTime                    .00000    
+Station 11.AccumOtherTime                   110.68    
+Station 11.TotalAccumTime                   110.68    
+Station 11.AccumVACost                      .00000    
+Station 11.AccumNVACost                     .00000    
+Station 11.AccumWaitCost                    .00000    
+Station 11.AccumTranCost                    .00000    
+Station 11.AccumOtherCost                   .00000    
+Station 11.TotalAccumCost                   .00000    
+Station 10.AccumVATime                      .00000    
+Station 10.AccumNVATime                     .00000    
+Station 10.AccumWaitTime                    .00000    
+Station 10.AccumTranTime                    .00000    
+Station 10.AccumOtherTime                   120.81    
+Station 10.TotalAccumTime                   120.81    
+Station 10.AccumVACost                      .00000    
+Station 10.AccumNVACost                     .00000    
+Station 10.AccumWaitCost                    .00000    
+Station 10.AccumTranCost                    .00000    
+Station 10.AccumOtherCost                   .00000    
+Station 10.TotalAccumCost                   .00000    
+Station 7.AccumVATime                       .00000    
+Station 7.AccumNVATime                      .00000    
+Station 7.AccumWaitTime                     .00000    
+Station 7.AccumTranTime                     .00000    
+Station 7.AccumOtherTime                    .00000    
+Station 7.TotalAccumTime                    .00000    
+Station 7.AccumVACost                       .00000    
+Station 7.AccumNVACost                      .00000    
+Station 7.AccumWaitCost                     .00000    
+Station 7.AccumTranCost                     .00000    
+Station 7.AccumOtherCost                    .00000    
+Station 7.TotalAccumCost                    .00000    
+Station 6.AccumVATime                       .00000    
+Station 6.AccumNVATime                      .00000    
+Station 6.AccumWaitTime                     10.276    
+Station 6.AccumTranTime                     .00000    
+Station 6.AccumOtherTime                    .00000    
+Station 6.TotalAccumTime                    10.276    
+Station 6.AccumVACost                       .00000    
+Station 6.AccumNVACost                      .00000    
+Station 6.AccumWaitCost                     .00000    
+Station 6.AccumTranCost                     .00000    
+Station 6.AccumOtherCost                    .00000    
+Station 6.TotalAccumCost                    .00000    
+Station 5.AccumVATime                       .00000    
+Station 5.AccumNVATime                      .00000    
+Station 5.AccumWaitTime                     .00000    
+Station 5.AccumTranTime                     .00000    
+Station 5.AccumOtherTime                    .00000    
+Station 5.TotalAccumTime                    .00000    
+Station 5.AccumVACost                       .00000    
+Station 5.AccumNVACost                      .00000    
+Station 5.AccumWaitCost                     .00000    
+Station 5.AccumTranCost                     .00000    
+Station 5.AccumOtherCost                    .00000    
+Station 5.TotalAccumCost                    .00000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+Station 9.AccumVATime                       23.270    
+Station 9.AccumNVATime                      .00000    
+Station 9.AccumWaitTime                     .00000    
+Station 9.AccumTranTime                     .00000    
+Station 9.AccumOtherTime                    .00000    
+Station 9.TotalAccumTime                    23.270    
+Station 9.AccumVACost                       .00000    
+Station 9.AccumNVACost                      .00000    
+Station 9.AccumWaitCost                     .00000    
+Station 9.AccumTranCost                     .00000    
+Station 9.AccumOtherCost                    .00000    
+Station 9.TotalAccumCost                    .00000    
+Station 8.AccumVATime                       .00000    
+Station 8.AccumNVATime                      .00000    
+Station 8.AccumWaitTime                     .00000    
+Station 8.AccumTranTime                     .00000    
+Station 8.AccumOtherTime                    .00000    
+Station 8.TotalAccumTime                    .00000    
+Station 8.AccumVACost                       .00000    
+Station 8.AccumNVACost                      .00000    
+Station 8.AccumWaitCost                     .00000    
+Station 8.AccumTranCost                     .00000    
+Station 8.AccumOtherCost                    .00000    
+Station 8.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            5623.0    
+
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Output Summary for 7 Replications
+
+Project: Unnamed Project                                             Run execution date : 1/22/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/22/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Process 1 Number In                         1410.8     59.486     1332.0     1493.0     7
+Process 1 Total Accum Time                  23.534     .99963     22.180     24.959     7
+Process 1 Accum VA Time                     23.534     .99963     22.180     24.959     7
+Process 1 Accum VA Cost                     .00000     .00000     .00000     .00000     7
+Process 1 Total Accum Cost                  .00000     .00000     .00000     .00000     7
+Process 1 Number Out                        1409.8     60.340     1330.0     1493.0     7
+Entity 1.NumberIn                           1484.1     37.169     1412.0     1532.0     7
+Entity 1.NumberOut                          1476.7     37.851     1403.0     1521.0     7
+Human.NumberIn                              4250.1     96.299     4107.0     4434.0     7
+Human.NumberOut                             4198.0     94.789     4062.0     4372.0     7
+Station 12.AccumVATime                      .00000     .00000     .00000     .00000     7
+Station 12.AccumNVATime                     .00000     .00000     .00000     .00000     7
+Station 12.AccumWaitTime                    .00000     .00000     .00000     .00000     7
+Station 12.AccumTranTime                    .00000     .00000     .00000     .00000     7
+Station 12.AccumOtherTime                   .00000     .00000     .00000     .00000     7
+Station 12.TotalAccumTime                   .00000     .00000     .00000     .00000     7
+Station 12.AccumVACost                      .00000     .00000     .00000     .00000     7
+Station 12.AccumNVACost                     .00000     .00000     .00000     .00000     7
+Station 12.AccumWaitCost                    .00000     .00000     .00000     .00000     7
+Station 12.AccumTranCost                    .00000     .00000     .00000     .00000     7
+Station 12.AccumOtherCost                   .00000     .00000     .00000     .00000     7
+Station 12.TotalAccumCost                   .00000     .00000     .00000     .00000     7
+Station 11.AccumVATime                      .00000     .00000     .00000     .00000     7
+Station 11.AccumNVATime                     .00000     .00000     .00000     .00000     7
+Station 11.AccumWaitTime                    .00000     .00000     .00000     .00000     7
+Station 11.AccumTranTime                    .00000     .00000     .00000     .00000     7
+Station 11.AccumOtherTime                   113.91     6.1677     103.17     121.09     7
+Station 11.TotalAccumTime                   113.91     6.1677     103.17     121.09     7
+Station 11.AccumVACost                      .00000     .00000     .00000     .00000     7
+Station 11.AccumNVACost                     .00000     .00000     .00000     .00000     7
+Station 11.AccumWaitCost                    .00000     .00000     .00000     .00000     7
+Station 11.AccumTranCost                    .00000     .00000     .00000     .00000     7
+Station 11.AccumOtherCost                   .00000     .00000     .00000     .00000     7
+Station 11.TotalAccumCost                   .00000     .00000     .00000     .00000     7
+Station 10.AccumVATime                      .00000     .00000     .00000     .00000     7
+Station 10.AccumNVATime                     .00000     .00000     .00000     .00000     7
+Station 10.AccumWaitTime                    .00000     .00000     .00000     .00000     7
+Station 10.AccumTranTime                    .00000     .00000     .00000     .00000     7
+Station 10.AccumOtherTime                   114.36     3.9182     109.92     120.81     7
+Station 10.TotalAccumTime                   114.36     3.9182     109.92     120.81     7
+Station 10.AccumVACost                      .00000     .00000     .00000     .00000     7
+Station 10.AccumNVACost                     .00000     .00000     .00000     .00000     7
+Station 10.AccumWaitCost                    .00000     .00000     .00000     .00000     7
+Station 10.AccumTranCost                    .00000     .00000     .00000     .00000     7
+Station 10.AccumOtherCost                   .00000     .00000     .00000     .00000     7
+Station 10.TotalAccumCost                   .00000     .00000     .00000     .00000     7
+Station 7.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 7.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 7.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 7.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 7.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 7.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 7.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 7.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 7.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 7.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 7.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 7.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 6.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 6.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 6.AccumWaitTime                     21.122     7.4468     10.276     34.726     7
+Station 6.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 6.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 6.TotalAccumTime                    21.122     7.4468     10.276     34.726     7
+Station 6.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 6.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 6.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 6.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 6.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 6.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 5.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 5.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 5.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 5.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 5.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 5.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 5.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 5.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 5.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 5.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 5.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 5.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 4.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 4.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 4.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 4.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 4.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 4.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 4.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 4.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 4.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 4.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 4.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 4.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 3.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 3.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 3.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 3.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 3.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 3.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 3.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 3.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 3.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 3.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 3.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 3.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 2.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 2.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 2.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 2.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 2.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 2.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 2.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 2.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 2.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 2.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 2.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 2.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 1.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 1.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 1.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 1.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 1.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 1.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 1.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 1.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 1.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 1.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 1.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 1.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 9.AccumVATime                       23.534     .99963     22.180     24.959     7
+Station 9.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 9.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 9.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 9.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 9.TotalAccumTime                    23.534     .99963     22.180     24.959     7
+Station 9.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 9.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 9.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 9.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 9.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 9.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+Station 8.AccumVATime                       .00000     .00000     .00000     .00000     7
+Station 8.AccumNVATime                      .00000     .00000     .00000     .00000     7
+Station 8.AccumWaitTime                     .00000     .00000     .00000     .00000     7
+Station 8.AccumTranTime                     .00000     .00000     .00000     .00000     7
+Station 8.AccumOtherTime                    .00000     .00000     .00000     .00000     7
+Station 8.TotalAccumTime                    .00000     .00000     .00000     .00000     7
+Station 8.AccumVACost                       .00000     .00000     .00000     .00000     7
+Station 8.AccumNVACost                      .00000     .00000     .00000     .00000     7
+Station 8.AccumWaitCost                     .00000     .00000     .00000     .00000     7
+Station 8.AccumTranCost                     .00000     .00000     .00000     .00000     7
+Station 8.AccumOtherCost                    .00000     .00000     .00000     .00000     7
+Station 8.TotalAccumCost                    .00000     .00000     .00000     .00000     7
+All Entities.VACost                         .00000     .00000     .00000     .00000     7
+All Entities.NVACost                        .00000     .00000     .00000     .00000     7
+All Entities.WaitCost                       .00000     .00000     .00000     .00000     7
+All Entities.TranCost                       .00000     .00000     .00000     .00000     7
+All Entities.OtherCost                      .00000     .00000     .00000     .00000     7
+All Entities.TotalCost                      .00000     .00000     .00000     .00000     7
+All Resources.BusyCost                      .00000     .00000     .00000     .00000     7
+All Resources.IdleCost                      .00000     .00000     .00000     .00000     7
+All Resources.UsageCost                     .00000     .00000     .00000     .00000     7
+All Resources.TotalCost                     .00000     .00000     .00000     .00000     7
+System.TotalCost                            .00000     .00000     .00000     .00000     7
+System.NumberOut                            5674.7     68.820     5583.0     5775.0     7
+
+Simulation run time: 1.82 minutes.
+Simulation run complete.
