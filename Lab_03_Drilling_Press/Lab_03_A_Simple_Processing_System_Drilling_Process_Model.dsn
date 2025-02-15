@@ -1,0 +1,17 @@
+[ODBC]
+SQLite3 ODBC Driver
+JDConv = 0
+BigInt = 0
+LoadExt =
+OEMCP = 0
+JournalMode =
+FKSupport = 1
+NoWCHAR = 0
+NoCreat = 0
+LongNames = 1
+ShortNames = 1
+Timeout = 10000
+NoTXN = 0
+SyncPragma = NORMAL
+StepAPI = 0
+Database=F:\05_02_Computer_Simulation_CS312_Lab\Lab_Reports\Lab_03_Drilling_Press\Lab_03_A_Simple_Processing_System_Drilling_Process_Model.db
