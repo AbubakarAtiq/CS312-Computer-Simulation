@@ -1,0 +1,224 @@
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/12/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/12/2025
+
+Replication ended at time      : 0.42667638 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         13    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         13    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TranTime                           .12000     (Insuf)    .10000     .14000         13    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TotalTime                          .12000     (Insuf)    .10000     .14000         13    
+Entity 1.VACost                             .00000     (Insuf)    .00000     .00000         13    
+Entity 1.NVACost                            .00000     (Insuf)    .00000     .00000         13    
+Entity 1.WaitCost                           .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TranCost                           .00000     (Insuf)    .00000     .00000         13    
+Entity 1.OtherCost                          .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TotalCost                          .00000     (Insuf)    .00000     .00000         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.9158     (Insuf)    .00000     8.0000     7.0000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.1272     (Insuf)    .00000     4.0000     3.0000    
+Station 2.NumEntTrans                       1.4983     (Insuf)    .00000     3.0000     3.0000    
+Station 1.NumEntTrans                       1.2902     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           20.000    
+Entity 1.NumberOut                          13.000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            13.000    
+
+
+Simulation run time: 0.13 minutes.
+Simulation run complete.
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/12/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/12/2025
+
+Replication ended at time      : 0.42667638 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         13    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         13    
+Entity 1.WaitTime                           .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TranTime                           .12000     (Insuf)    .10000     .14000         13    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TotalTime                          .12000     (Insuf)    .10000     .14000         13    
+Entity 1.VACost                             .00000     (Insuf)    .00000     .00000         13    
+Entity 1.NVACost                            .00000     (Insuf)    .00000     .00000         13    
+Entity 1.WaitCost                           .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TranCost                           .00000     (Insuf)    .00000     .00000         13    
+Entity 1.OtherCost                          .00000     (Insuf)    .00000     .00000         13    
+Entity 1.TotalCost                          .00000     (Insuf)    .00000     .00000         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.9158     (Insuf)    .00000     8.0000     7.0000    
+Station 4.NumEntTrans                       .00000     (Insuf)    .00000     .00000     .00000    
+Station 3.NumEntTrans                       2.1272     (Insuf)    .00000     4.0000     3.0000    
+Station 2.NumEntTrans                       1.4983     (Insuf)    .00000     3.0000     3.0000    
+Station 1.NumEntTrans                       1.2902     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           20.000    
+Entity 1.NumberOut                          13.000    
+Station 4.AccumVATime                       .00000    
+Station 4.AccumNVATime                      .00000    
+Station 4.AccumWaitTime                     .00000    
+Station 4.AccumTranTime                     .00000    
+Station 4.AccumOtherTime                    .00000    
+Station 4.TotalAccumTime                    .00000    
+Station 4.AccumVACost                       .00000    
+Station 4.AccumNVACost                      .00000    
+Station 4.AccumWaitCost                     .00000    
+Station 4.AccumTranCost                     .00000    
+Station 4.AccumOtherCost                    .00000    
+Station 4.TotalAccumCost                    .00000    
+Station 3.AccumVATime                       .00000    
+Station 3.AccumNVATime                      .00000    
+Station 3.AccumWaitTime                     .00000    
+Station 3.AccumTranTime                     .00000    
+Station 3.AccumOtherTime                    .00000    
+Station 3.TotalAccumTime                    .00000    
+Station 3.AccumVACost                       .00000    
+Station 3.AccumNVACost                      .00000    
+Station 3.AccumWaitCost                     .00000    
+Station 3.AccumTranCost                     .00000    
+Station 3.AccumOtherCost                    .00000    
+Station 3.TotalAccumCost                    .00000    
+Station 2.AccumVATime                       .00000    
+Station 2.AccumNVATime                      .00000    
+Station 2.AccumWaitTime                     .00000    
+Station 2.AccumTranTime                     .00000    
+Station 2.AccumOtherTime                    .00000    
+Station 2.TotalAccumTime                    .00000    
+Station 2.AccumVACost                       .00000    
+Station 2.AccumNVACost                      .00000    
+Station 2.AccumWaitCost                     .00000    
+Station 2.AccumTranCost                     .00000    
+Station 2.AccumOtherCost                    .00000    
+Station 2.TotalAccumCost                    .00000    
+Station 1.AccumVATime                       .00000    
+Station 1.AccumNVATime                      .00000    
+Station 1.AccumWaitTime                     .00000    
+Station 1.AccumTranTime                     .00000    
+Station 1.AccumOtherTime                    .00000    
+Station 1.TotalAccumTime                    .00000    
+Station 1.AccumVACost                       .00000    
+Station 1.AccumNVACost                      .00000    
+Station 1.AccumWaitCost                     .00000    
+Station 1.AccumTranCost                     .00000    
+Station 1.AccumOtherCost                    .00000    
+Station 1.TotalAccumCost                    .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            13.000    
+
+
+Simulation run time: 0.13 minutes.
+Simulation run complete.

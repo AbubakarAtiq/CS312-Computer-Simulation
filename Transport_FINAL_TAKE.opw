@@ -1,0 +1,16 @@
+[RESOURCES]
+[VARIABLES]
+Dispose 6.NumberOut
+Dispose 2.NumberOut
+Process 1.NumberIn
+Create 4.NumberOut
+Create 3.NumberOut
+Create 2.NumberOut
+Dispose 1.NumberOut
+Dispose 8.NumberOut
+Dispose 4.NumberOut
+Process 1.VATime
+Dispose 5.NumberOut
+Dispose 7.NumberOut
+Process 1.VACost
+Process 1.NumberOut
