@@ -1,0 +1,83 @@
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :10/29/2024
+Analyst: AbuBakarAtiq                                                Model revision date:10/29/2024
+
+Replication ended at time      : 0.58714606 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Student.VATime                              .00193      2.7833E-5  9.0313E-4 .00326       1200    
+Student.NVATime                             .00000     .00000     .00000     .00000       1200    
+Student.WaitTime                            .01886     (Corr)     .00000     .12425       1200    
+Student.TranTime                            .00000     .00000     .00000     .00000       1200    
+Student.OtherTime                           .00000     .00000     .00000     .00000       1200    
+Student.TotalTime                           .02079     (Corr)      9.5019E-4 .12623       1200    
+RFID Validation Boys Entrance.Queue.Waitin  .05465     (Insuf)    .00000     .12425        300    
+RFID Validation Girls Entrance.Queue.Waiti  .01949     (Insuf)    .00000     .04215        300    
+RFID Validation Emergency Boys.Queue.Waiti   6.9163E-4 (Insuf)    .00000     .00490        300    
+RFID Validation.Queue.WaitingTime               --         --         --         --          0
+RFID Validation Emergency Girls.Queue.Wait   6.0328E-4 (Insuf)    .00000     .00523        300    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Student.WIP                                 42.481     (Insuf)    .00000     85.000     .00000    
+Emergency Girls Gate.NumberBusy             .98534     (Insuf)    .00000     2.0000     .00000    
+Emergency Girls Gate.NumberScheduled        2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Emergency Girls Gate.Utilization            .49267     (Insuf)    .00000     1.0000     .00000    
+Emergency Boys Gate.NumberBusy              1.0036     (Insuf)    .00000     2.0000     .00000    
+Emergency Boys Gate.NumberScheduled         2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Emergency Boys Gate.Utilization             .50182     (Insuf)    .00000     1.0000     .00000    
+Boys Entrance Gate.NumberBusy               .97508     (Insuf)    .00000     1.0000     .00000    
+Boys Entrance Gate.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Boys Entrance Gate.Utilization              .97508     (Insuf)    .00000     1.0000     .00000    
+Girls Entrance Gate.NumberBusy              .97464     (Insuf)    .00000     1.0000     .00000    
+Girls Entrance Gate.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Girls Entrance Gate.Utilization             .97464     (Insuf)    .00000     1.0000     .00000    
+Girls Exit Gate.NumberBusy                  .00000     (Insuf)    .00000     .00000     .00000    
+Girls Exit Gate.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Girls Exit Gate.Utilization                 .00000     (Insuf)    .00000     .00000     .00000    
+Boys Exit Gate.NumberBusy                   .00000     (Insuf)    .00000     .00000     .00000    
+Boys Exit Gate.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Boys Exit Gate.Utilization                  .00000     (Insuf)    .00000     .00000     .00000    
+RFID Validation Boys Entrance.Queue.Number  27.922     (Insuf)    .00000     62.000     .00000    
+RFID Validation Girls Entrance.Queue.Numbe  9.9588     (Insuf)    .00000     22.000     .00000    
+RFID Validation Emergency Boys.Queue.Numbe  .35339     (Insuf)    .00000     7.0000     .00000    
+RFID Validation.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+RFID Validation Emergency Girls.Queue.Numb  .30824     (Insuf)    .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Student.NumberIn                            1200.0    
+Student.NumberOut                           1200.0    
+Emergency Girls Gate.NumberSeized           300.00    
+Emergency Girls Gate.ScheduledUtilization   .49267    
+Emergency Boys Gate.NumberSeized            300.00    
+Emergency Boys Gate.ScheduledUtilization    .50182    
+Boys Entrance Gate.NumberSeized             300.00    
+Boys Entrance Gate.ScheduledUtilization     .97508    
+Girls Entrance Gate.NumberSeized            300.00    
+Girls Entrance Gate.ScheduledUtilization    .97464    
+Girls Exit Gate.NumberSeized                .00000    
+Girls Exit Gate.ScheduledUtilization        .00000    
+Boys Exit Gate.NumberSeized                 .00000    
+Boys Exit Gate.ScheduledUtilization         .00000    
+System.NumberOut                            1200.0    
+
+
+Simulation run time: 0.47 minutes.
+Simulation run complete.

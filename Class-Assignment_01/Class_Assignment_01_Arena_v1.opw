@@ -1,0 +1,25 @@
+[RESOURCES]
+Emergency Girls Gate
+Emergency Boys Gate
+Boys Entrance Gate
+Girls Entrance Gate
+Girls Exit Gate
+Boys Exit Gate
+[VARIABLES]
+Boys Gate Arrivals.NumberOut
+RFID Validation Girls Entrance.NumberOut
+Emergency Boys Gate Arrivals.NumberOut
+RFID Validation Emergency Boys.NumberIn
+RFID Validation Boys Entrance.NumberOut
+RFID Validation Boys Entrance.NumberIn
+Dispose 2.NumberOut
+RFID Validation Emergency Girls.NumberIn
+RFID Validation Girls Entrance.NumberIn
+RFID Validation Emergency Boys.NumberOut
+Dispose 4.NumberOut
+Emergency Girls Gate Arrivals.NumberOut
+Girls Gate Arrivals.NumberOut
+Dispose 5.NumberOut
+Dispose 3.NumberOut
+RFID Validation Emergency Girls.NumberOut
+Variable 1
