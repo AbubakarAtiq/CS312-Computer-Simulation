@@ -1,0 +1,19 @@
+[RESOURCES]
+[VARIABLES]
+Commute Home.NumberOut
+Wake Up and Get Ready.NumberOut
+Wake Up and Get Ready.NumberIn
+Homework and Study.NumberIn
+Lunch.NumberOut
+Afternoon lab and parallel activity.NumberIn
+Afternoon lab and parallel activity.NumberOut
+Dispose 2.NumberOut
+Class.NumberOut
+Lunch.NumberIn
+Class.NumberIn
+Homework and Study.NumberOut
+Commute to University.NumberOut
+Commute to University.NumberIn
+Commute Home.NumberIn
+Review Notes.NumberIn
+Review Notes.NumberOut
