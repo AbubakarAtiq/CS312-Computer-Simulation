@@ -1,0 +1,50 @@
+
+                                      ARENA Simulation Results
+                                              SysAdmin
+
+                                  Summary for Replication 1 of 1
+
+Project: Assign Module and Entity Picture Model Drilling Advanced    Run execution date :11/26/2024
+Analyst: Mohammad Abubakar Atiq                                      Model revision date:11/26/2024
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Parts.VATime                                .05807     (Insuf)    .01978     .09508         40    
+Parts.NVATime                               .00000     (Insuf)    .00000     .00000         40    
+Parts.WaitTime                              .02807     (Insuf)    .00000     .13933         40    
+Parts.TranTime                              .00000     (Insuf)    .00000     .00000         40    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000         40    
+Parts.TotalTime                             .08613     (Insuf)    .01978     .23278         40    
+Drilling Process.Queue.WaitingTime          .03065     (Insuf)    .00000     .13933         41    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   .93741     (Insuf)    .00000     4.0000     3.0000    
+Drill machine.NumberBusy                    .58358     (Insuf)    .00000     1.0000     1.0000    
+Drill machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill machine.Utilization                   .58358     (Insuf)    .00000     1.0000     1.0000    
+Drilling Process.Queue.NumberInQueue        .35382     (Insuf)    .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              43.000    
+Parts.NumberOut                             40.000    
+Drill machine.NumberSeized                  41.000    
+Drill machine.ScheduledUtilization          .58358    
+System.NumberOut                            40.000    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.
