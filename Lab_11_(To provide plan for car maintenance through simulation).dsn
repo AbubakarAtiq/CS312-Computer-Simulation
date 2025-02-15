@@ -1,0 +1,17 @@
+[ODBC]
+SQLite3 ODBC Driver
+JDConv = 0
+BigInt = 0
+LoadExt =
+OEMCP = 0
+JournalMode =
+FKSupport = 1
+NoWCHAR = 0
+NoCreat = 0
+LongNames = 1
+ShortNames = 1
+Timeout = 10000
+NoTXN = 0
+SyncPragma = NORMAL
+StepAPI = 0
+Database=F:\05_02_Computer_Simulation_CS312_Lab\0000_CS312_Computer_Simulation\CS\Lab Reports\Lab_11_(To provide plan for car maintenance through simulation).db

@@ -1,0 +1,96 @@
+
+----------------------------------------------------------------------
+19114:CCREAT
+Entity: 150
+A runtime error was detected at time 1665.8571 at the following block:
+
+ *    1 18$             CREATE,1,MinutesToBaseTime(0.0),Patient:
+                            MinutesToBaseTime(EXPO(10)):
+                            NEXT(19$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+1665.8571 Minutes>
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/ 8/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/ 8/2025
+
+Replication ended at time      : 1665.8571 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Patient Surgery or Service Time                 --         --         --         --          0
+Patient.VATime                                  --         --         --         --          0
+Patient.NVATime                                 --         --         --         --          0
+Patient.WaitTime                                --         --         --         --          0
+Patient.TranTime                                --         --         --         --          0
+Patient.OtherTime                               --         --         --         --          0
+Patient.TotalTime                               --         --         --         --          0
+Waiting Room.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          3    
+Wait for doctor.Queue.WaitingTime               --         --         --         --          0
+Check Out.Queue.WaitingTime                     --         --         --         --          0
+Triage.Queue.WaitingTime                    516.85     (Insuf)    .00000     1181.6          4    
+Reception.Queue.WaitingTime                 14.385     (Insuf)    .00000     59.136        148    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Patient.WIP                                 72.221     (Insuf)    .00000     148.00     148.00    
+Receptionist.NumberBusy                     .79628     (Insuf)    .00000     1.0000     1.0000    
+Receptionist.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Receptionist.Utilization                    .79628     (Insuf)    .00000     1.0000     1.0000    
+Nurse.NumberBusy                            .01772     (Insuf)    .00000     1.0000     .00000    
+Nurse.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse.Utilization                           .01772     (Insuf)    .00000     1.0000     .00000    
+Doctor.NumberBusy                           .99510     (Insuf)    .00000     1.0000     1.0000    
+Doctor.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Doctor.Utilization                          .99510     (Insuf)    .00000     1.0000     1.0000    
+Waiting Room.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Wait for doctor.Queue.NumberInQueue         1.6882     (Insuf)    .00000     3.0000     3.0000    
+Check Out.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Triage.Queue.NumberInQueue                  67.446     (Insuf)    .00000     143.00     143.00    
+Reception.Queue.NumberInQueue               1.2780     (Insuf)    .00000     7.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Patient.NumberIn                            148.00    
+Patient.NumberOut                           .00000    
+Receptionist.NumberSeized                   148.00    
+Receptionist.ScheduledUtilization           .79628    
+Nurse.NumberSeized                          3.0000    
+Nurse.ScheduledUtilization                  .01772    
+Doctor.NumberSeized                         4.0000    
+Doctor.ScheduledUtilization                 .99510    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.15 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).

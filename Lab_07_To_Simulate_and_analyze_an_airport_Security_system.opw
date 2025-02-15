@@ -1,0 +1,10 @@
+[RESOURCES]
+Transportation Security Officer
+[VARIABLES]
+Passengers Arrive to Security.NumberOut
+Check for proper identification.NumberOut
+Pass Security?.NumberOut True
+Check for proper identification.NumberIn
+Pass Security?.NumberOut False
+Cleared.NumberOut
+Denied.NumberOut

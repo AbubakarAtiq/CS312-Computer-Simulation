@@ -1,0 +1,15 @@
+[RESOURCES]
+Receptionist
+Nurse
+Doctor
+[VARIABLES]
+Critical?.NumberOut True
+Reception.NumberIn
+Triage.NumberOut
+Leaves Facility.NumberOut
+Triage.NumberIn
+Reception.NumberOut
+Check Out.NumberIn
+Patient Arrival.NumberOut
+Critical?.NumberOut False
+Check Out.NumberOut

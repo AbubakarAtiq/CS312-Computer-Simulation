@@ -1,0 +1,27 @@
+[RESOURCES]
+[VARIABLES]
+Civic or City?.NumberOut False
+Check engine oil and provide other services.NumberOut
+Check engine oil and provide other services.NumberIn
+Defect Detected and removed in city.NumberOut
+Defect Detected and removed in city.NumberIn
+Type of Repairing of City.NumberOut False
+Periodic Service Inspection in civic.NumberOut
+Necessity for road test.NumberOut
+Civic.NumberOut
+Civic or City?.NumberOut True
+Periodic Service Inspection in civic.NumberIn
+Periodic service inspection in city.NumberOut
+Periodic service inspection in city.NumberIn
+Type of Repairing of City.NumberOut True
+Arrival of Car.NumberOut
+Car is not ready to leave.NumberOut
+City.NumberOut
+Civic.NumberIn
+Type of Repairing for Civic.NumberOut True
+City.NumberIn
+Type of Repairing for Civic.NumberOut False
+Necessity for road test.NumberIn
+Ready to leave.NumberOut
+Defect detected and removed in civic.NumberOut
+Defect detected and removed in civic.NumberIn

@@ -1,0 +1,52 @@
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/ 8/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/ 8/2025
+
+Replication ended at time      : 48.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 3.VATime                                 --         --         --         --          0
+Entity 3.NVATime                                --         --         --         --          0
+Entity 3.WaitTime                               --         --         --         --          0
+Entity 3.TranTime                               --         --         --         --          0
+Entity 3.OtherTime                              --         --         --         --          0
+Entity 3.TotalTime                              --         --         --         --          0
+Customer.VATime                             .15880     .00614     .00000     .55655       1129    
+Customer.NVATime                            .00000     .00000     .00000     .00000       1129    
+Customer.WaitTime                           .00000     .00000     .00000     .00000       1129    
+Customer.TranTime                           .00000     .00000     .00000     .00000       1129    
+Customer.OtherTime                          .00000     .00000     .00000     .00000       1129    
+Customer.TotalTime                          .15880     .00614     .00000     .55655       1129    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 3.WIP                                .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                3.7376     .27665     .00000     10.000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 3.NumberIn                           .00000    
+Entity 3.NumberOut                          .00000    
+Customer.NumberIn                           566.00    
+Customer.NumberOut                          563.00    
+System.NumberOut                            1129.0    
+
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.

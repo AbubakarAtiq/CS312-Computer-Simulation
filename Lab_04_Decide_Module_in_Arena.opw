@@ -1,0 +1,13 @@
+[RESOURCES]
+Drill Machine
+Inspector
+[VARIABLES]
+Drilling Process.NumberIn
+Drilling Process.NumberOut
+Decide Part Quality.NumberOut True
+Parts sent for rework.NumberOut
+Decide Part Quality.NumberOut False
+Inspection process.NumberIn
+Inspection process.NumberOut
+Parts leaves the system.NumberOut
+Create Part Arrival.NumberOut

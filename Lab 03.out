@@ -1,0 +1,52 @@
+SIMAN Run Controller.
+
+28.494711 Hours>
+                                      ARENA Simulation Results
+                                              SysAdmin
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/ 5/2024
+Analyst: SysAdmin                                                    Model revision date:11/ 5/2024
+
+Replication ended at time      : 28.494711 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Parts.VATime                                .05598     .00208     .01865     .09628        353    
+Parts.NVATime                               .00000     .00000     .00000     .00000        353    
+Parts.WaitTime                              .06036     .01981     .00000     .29511        353    
+Parts.TranTime                              .00000     .00000     .00000     .00000        353    
+Parts.OtherTime                             .00000     .00000     .00000     .00000        353    
+Parts.TotalTime                             .11635     .02090     .01962     .38134        353    
+Drilling Process.Queue.WaitingTime          .06019     .01981     .00000     .29511        354    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   1.4420     .35141     .00000     6.0000     1.0000    
+Drill machine.NumberBusy                    .69420     (Insuf)    .00000     1.0000     1.0000    
+Drill machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill machine.Utilization                   .69420     (Insuf)    .00000     1.0000     1.0000    
+Drilling Process.Queue.NumberInQueue        .74780     .28838     .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              354.00    
+Parts.NumberOut                             353.00    
+Drill machine.NumberSeized                  354.00    
+Drill machine.ScheduledUtilization          .69420    
+System.NumberOut                            353.00    
+
+
+Simulation run time: 0.20 minutes.
+Simulation run complete.

@@ -1,0 +1,43 @@
+
+                                      ARENA Simulation Results
+                                   AbuBakarAtiq - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 1/ 8/2025
+Analyst: AbuBakarAtiq                                                Model revision date: 1/ 8/2025
+
+Replication ended at time      : 120.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CAR.VATime                                  2.0742     (Insuf)    .56624     3.8340        184    
+CAR.NVATime                                 .00000     (Insuf)    .00000     .00000        184    
+CAR.WaitTime                                .00000     (Insuf)    .00000     .00000        184    
+CAR.TranTime                                .00000     (Insuf)    .00000     .00000        184    
+CAR.OtherTime                               .00000     (Insuf)    .00000     .00000        184    
+CAR.TotalTime                               2.7032     (Insuf)    1.4512     3.8340        184    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+CAR.WIP                                     3.2840     (Insuf)    .00000     8.0000     7.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+CAR.NumberIn                                133.00    
+CAR.NumberOut                               126.00    
+System.NumberOut                            184.00    
+
+
+Simulation run time: 0.40 minutes.
+Simulation run complete.

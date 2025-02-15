@@ -1,0 +1,7 @@
+[RESOURCES]
+drll machine
+[VARIABLES]
+Drilling process.NumberIn
+Drilling process.NumberOut
+parts leave the system.NumberOut
+create part arrival.NumberOut

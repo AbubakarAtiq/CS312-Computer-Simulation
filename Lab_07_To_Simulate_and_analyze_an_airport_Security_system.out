@@ -1,0 +1,118 @@
+
+                                      ARENA Simulation Results
+                                              SysAdmin
+
+                                  Summary for Replication 1 of 2
+
+Project: By Mohammad Abubakar Atiq                                   Run execution date :12/31/2024
+Analyst: By Mohammad Abubakar Atiq                                   Model revision date:12/31/2024
+
+Replication ended at time      : 2880.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Passengers.VATime                           108.80     (Insuf)    54.317     156.63         24    
+Passengers.NVATime                          .00000     (Insuf)    .00000     .00000         24    
+Passengers.WaitTime                         233.67     (Insuf)    .00000     624.57         24    
+Passengers.TranTime                         .00000     (Insuf)    .00000     .00000         24    
+Passengers.OtherTime                        .00000     (Insuf)    .00000     .00000         24    
+Passengers.TotalTime                        342.48     (Insuf)    91.771     701.00         24    
+Check for proper identification.Queue.Wait  227.71     (Insuf)    .00000     624.57         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passengers.WIP                              2.9215     (Insuf)    .00000     7.0000     3.0000    
+Transportation Security Officer.NumberBusy  .92522     (Insuf)    .00000     1.0000     1.0000    
+Transportation Security Officer.NumberSche  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transportation Security Officer.Utilizatio  .92522     (Insuf)    .00000     1.0000     1.0000    
+Check for proper identification.Queue.Numb  1.9963     (Insuf)    .00000     6.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Passengers.NumberIn                         27.000    
+Passengers.NumberOut                        24.000    
+Transportation Security Officer.NumberSeiz  25.000    
+Transportation Security Officer.ScheduledU  .92522    
+System.NumberOut                            24.000    
+
+Beginning replication 2 of 2
+
+                                      ARENA Simulation Results
+                                              SysAdmin
+
+                                  Summary for Replication 2 of 2
+
+Project: By Mohammad Abubakar Atiq                                   Run execution date :12/31/2024
+Analyst: By Mohammad Abubakar Atiq                                   Model revision date:12/31/2024
+
+Replication ended at time      : 2880.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Passengers.VATime                           112.37     (Insuf)    58.973     160.02         25    
+Passengers.NVATime                          .00000     (Insuf)    .00000     .00000         25    
+Passengers.WaitTime                         205.44     (Insuf)    .00000     433.60         25    
+Passengers.TranTime                         .00000     (Insuf)    .00000     .00000         25    
+Passengers.OtherTime                        .00000     (Insuf)    .00000     .00000         25    
+Passengers.TotalTime                        317.82     (Insuf)    115.79     530.35         25    
+Check for proper identification.Queue.Wait  213.18     (Insuf)    .00000     433.60         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passengers.WIP                              3.0788     (Insuf)    .00000     5.0000     5.0000    
+Transportation Security Officer.NumberBusy  .97810     (Insuf)    .00000     1.0000     1.0000    
+Transportation Security Officer.NumberSche  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transportation Security Officer.Utilizatio  .97810     (Insuf)    .00000     1.0000     1.0000    
+Check for proper identification.Queue.Numb  2.1007     (Insuf)    .00000     4.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Passengers.NumberIn                         30.000    
+Passengers.NumberOut                        25.000    
+Transportation Security Officer.NumberSeiz  26.000    
+Transportation Security Officer.ScheduledU  .97810    
+System.NumberOut                            25.000    
+
+
+                                      ARENA Simulation Results
+                                              SysAdmin
+
+                                  Output Summary for 2 Replications
+
+Project: By Mohammad Abubakar Atiq                                   Run execution date :12/31/2024
+Analyst: By Mohammad Abubakar Atiq                                   Model revision date:12/31/2024
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Passengers.NumberIn                         28.500     19.059     27.000     30.000     2
+Passengers.NumberOut                        24.500     6.3530     24.000     25.000     2
+Transportation Security Officer.NumberSeiz  25.500     6.3530     25.000     26.000     2
+Transportation Security Officer.ScheduledU  .95166     .33594     .92522     .97810     2
+System.NumberOut                            24.500     6.3530     24.000     25.000     2
+
+Simulation run time: 0.75 minutes.
+Simulation run complete.

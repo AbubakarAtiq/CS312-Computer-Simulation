@@ -1,0 +1,21 @@
+[RESOURCES]
+[VARIABLES]
+Takeaway taken order customer left.NumberOut
+Customer gone.NumberOut
+Takeaway?.NumberOut True
+Customer Entering.NumberOut
+Ice cream or Soft drink.NumberOut
+Order or takeaway?.NumberOut False
+Burger or Pizza.NumberOut
+Order or takeaway?.NumberOut True
+Sit or Go?.NumberOut False
+Ice cream or Soft drink.NumberIn
+Takeaway order waiting.NumberOut
+Takeaway order waiting.NumberIn
+Dispose 3.NumberOut
+Takeaway?.NumberOut False
+Sitting Customer gone.NumberOut
+Sitting Customer.NumberIn
+Sitting Customer.NumberOut
+Sit or Go?.NumberOut True
+Burger or Pizza.NumberIn
