@@ -1,0 +1,23 @@
+[RESOURCES]
+Resource 1
+[VARIABLES]
+Distribute funds Regular.NumberOut
+Distribute funds VIP.NumberOut
+Distribute funds Regular.NumberIn
+Check Credits Regular.NumberOut
+Check Credits Regular.NumberIn
+Preparing Convenants VIP.NumberOut
+Price the loans VIP.NumberIn
+Price the loans regular.NumberOut
+Preparing Convenants VIP.NumberIn
+Price the loans VIP.NumberOut
+Preparing Convenants Regular.NumberIn
+Distribute funds VIP.NumberIn
+Preparing Convenants Regular.NumberOut
+VIP Customers ?.NumberOut True
+VIP Customers ?.NumberOut False
+Customer departs.NumberOut
+Check credits VIP.NumberOut
+Check credits VIP.NumberIn
+Price the loans regular.NumberIn
+Customers arrive to bank.NumberOut

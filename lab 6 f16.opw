@@ -1,0 +1,24 @@
+[RESOURCES]
+Resource 1
+[VARIABLES]
+installments of loan regular.NumberIn
+price loan vip.NumberIn
+price loan vip.NumberOut
+preparing convanent vip.NumberIn
+preparing convent regular.NumberOut
+preparing convent regular.NumberIn
+customer arrival to the bank.NumberOut
+price the loan regular.NumberOut
+price the loan regular.NumberIn
+vip customer.NumberOut True
+customer departs.NumberOut
+vip customer.NumberOut False
+vip customers departs.NumberOut
+preparing convanent vip.NumberOut
+check credit regular.NumberOut
+installments of loan vip.NumberIn
+installments of loan vip.NumberOut
+check credit regular.NumberIn
+check  credit vip.NumberIn
+installments of loan regular.NumberOut
+check  credit vip.NumberOut
